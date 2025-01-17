@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    width: 400px;
+    height: min-content;
+    border-radius: 12px;
+    padding: 28px;
+    background-color: white;
+}
+.searcbox{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searcbox input{
+    width: 84%;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    padding: 12px 16px;
+    border-radius: 14px;
+    background-color:#e6f5fb;
+}
+.searcbox input::placeholder{
+color: black;
+}
+.searcbox button{
+    height: 46px;
+    width: 46px;
+    background-color:#e6f5fb;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+.searcbox button:hover{
+    color: white;
+    background-color: black;
+}
+.weather-image{
+    width: 60%;
+}
+.weather_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 20px;
+}
+.weather-box{
+    margin-block: 20px;
+    text-align: center;   
+}
+
+.weather-box .temperature{
+font-size: 40px;
+font-weight: 700;
+position: relative;
+
+}
+.weather-box .temperature sup{
+    font-size: 20px;
+    position: absolute;
+}
+.weather-box .description{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.weather_details{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.humidity , .wind{
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin-left: 10px;
+}
+.text span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* .humidity{
+    margin-left: 20px;
+}
+.wind{
+    margin-left: 20px;
+
+} */
+.weather_details i{
+    display: block;
+    font-size: 36px;
+}
+.weather_details .text{
+    display: block;
+}
