@@ -20,6 +20,15 @@ body{
     padding: 28px;
     background-color: white;
 }
+@media(max-width : 420px){
+    .container{
+        width: 300px;
+    }
+    .searcbox button{
+        margin-left: 5px;
+    }
+
+}
 .searcbox{
     width: 100%;
     height: min-content;
