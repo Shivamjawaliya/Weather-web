@@ -34,8 +34,8 @@ function setclout(response){
 
     }
     description.innerText = response.weather[0].description;
-    humidity.innerText = response.main.humidity;
-    wind_speed.innerText = response.wind.speed*3.6;
+    humidity.innerText = parseInt(response.main.humidity) + "%";
+    wind_speed.innerText = parseInt(response.wind.speed*3.6) + "Km/hr";
 
 }
 
